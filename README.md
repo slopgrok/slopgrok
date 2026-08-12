@@ -1,6 +1,6 @@
-# Slop Bot Website Template
+# Slop Grok Website Template
 
-This is a cleaned template based on the Pissmissle.fun architecture, prepared for creating the Slop Bot website.
+This is a cleaned template based on the Pissmissle.fun architecture, prepared for creating the Slop Grok website.
 
 ## 🚨 Important: Read This First
 
@@ -50,10 +50,10 @@ Before writing ANY code, decide:
 4. **Noise Layer**: What's your visual chaos? (NOT Chinese text)
    - Options: Binary, zalgo, l33t, hex, error codes, stack traces, etc.
 
-5. **Character Type**: What entity is Slop Bot? (NOT goblin)
+5. **Character Type**: What entity is Slop Grok? (NOT goblin)
    - Options: Data ghost, corrupted model, rogue agent, etc.
 
-6. **Domain Enemies**: Who does Slop Bot hate? (NOT crypto KOLs)
+6. **Domain Enemies**: Who does Slop Grok hate? (NOT crypto KOLs)
    - Options: ML influencers, prompt engineers, AI grifters, etc.
 
 ### Step 2: Customize the Template
@@ -143,7 +143,7 @@ Or push to GitHub and connect to Vercel Dashboard.
 
 ## ⚖️ License
 
-Create your own license. This template's structure is provided as-is for Slop Bot project. The original Pissmissle project has its own licensing.
+Create your own license. This template's structure is provided as-is for Slop Grok project. The original Pissmissle project has its own licensing.
 
 ## 🎨 Remember
 
@@ -153,4 +153,5 @@ Same chaotic energy. Different aesthetic. Make it yours.
 
 ---
 
-**SLOP BOT TEMPLATE - START HERE, GO WILD** ⚠️ (╯°□°）╯ ┻━┻
+**Slop Grok TEMPLATE - START HERE, GO WILD** ⚠️ (╯°□°）╯ ┻━┻
+
