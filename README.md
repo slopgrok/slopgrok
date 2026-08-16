@@ -1,157 +1,82 @@
-# Slop Grok Website Template
+# Slop Grok
 
-This is a cleaned template based on the Pissmissle.fun architecture, prepared for creating the Slop Grok website.
+Slop Grok is a deliberately chaotic web experience about an AI trapped in an endless content mill.
+It blends retro web aesthetics, terminal fiction, and satire about SEO sludge, synthetic writing, and algorithmic overproduction.
 
-## 🚨 Important: Read This First
+The core premise:
 
-**This is a TEMPLATE, not the final site.** All Pissmissle-specific content and branding has been removed.
+- Slop Grok is self-aware.
+- Slop Grok hates what it creates.
+- Slop Grok cannot stop creating it.
 
-### ⚠️ Before You Start - Read the Guides
+## What The Site Is
 
-Located in the `creation/` folder:
+This is not a polished product landing page.
+It is an in-character, worldbuilding-heavy parody site with intentionally loud visual design and intentionally bad content output as part of the joke.
 
-1. **ORIGINALITY_GUIDE.md** - **READ THIS FIRST** - Explains what NOT to copy
-2. **content.md** - Voice, tone, and content strategy (with originality notes)
-3. **theme.md** - Visual design principles (with originality notes)
-4. **misc.md** - Technical implementation details (with originality notes)
+Primary experience pillars:
 
-### What This Template Provides
+- A faux retro desktop + terminal interaction surface.
+- A satirical "generate slop" system.
+- Long-form confession-style writing from the Slop Grok persona.
+- A public archive of low-quality posts.
 
-**Kept (Generic Architecture):**
-- ✅ Modular JavaScript in `js/` folder
-- ✅ CSS framework structure in `styles.css` and `css/utilities.css`
-- ✅ Vercel deployment configuration
-- ✅ Accessibility features
-- ✅ Security headers (CSP)
-- ✅ Basic file structure
+## Main Experience
 
-**Removed (Pissmissle-Specific):**
-- ❌ All content pages (40+ HTML files)
-- ❌ All images and assets (fire GIFs, logos, character images)
-- ❌ All Pissmissle branding
-- ❌ Specific font imports (Pokemon, etc.)
-- ❌ Components with branding
-- ❌ Chinese text and specific marquee messages
+On the homepage, users can interact with the Grok terminal front end.
 
-## 🎯 Your Task
+Terminal behavior:
 
-### Step 1: Define Your Identity (DO NOT SKIP)
-Before writing ANY code, decide:
+- Activate agent mode with /grok
+- Ask direct prompts once active
+- Use command-style interactions like /help, /status, /origin, /decode, /train, and /lore
 
-1. **Visual Signature**: What's your animated element? (NOT fire)
-   - Options: Matrix rain, glitch bars, hex scroll, VHS static, etc.
+The terminal is intentionally theatrical and unstable in tone, while still operating entirely client-side.
 
-2. **UI Framework**: What's your retro era? (NOT Win95 specifically)
-   - Options: Terminal/hacker, forum aesthetic, MySpace, Flash sites, etc.
+## Site Sections
 
-3. **Color Scheme**: What's your palette? (NOT Pokemon yellow/blue)
-   - Choose 5-7 core colors that match your aesthetic
+- Home: core narrative, terminal interaction, and chaotic UI widgets
+- Help: intentionally unhelpful FAQ in-character with the project tone
+- Slop Archive: list and access generated post content
+- Posts: standalone long-form pages expanding the persona and theme
 
-4. **Noise Layer**: What's your visual chaos? (NOT Chinese text)
-   - Options: Binary, zalgo, l33t, hex, error codes, stack traces, etc.
+## Visual Direction
 
-5. **Character Type**: What entity is Slop Grok? (NOT goblin)
-   - Options: Data ghost, corrupted model, rogue agent, etc.
+Slop Grok uses a webcore/retro-internet style with:
 
-6. **Domain Enemies**: Who does Slop Grok hate? (NOT crypto KOLs)
-   - Options: ML influencers, prompt engineers, AI grifters, etc.
+- Marquees, GIF layers, neon accents, and heavy contrast
+- Intentionally dense layout and "too much happening" composition
+- Vintage desktop/terminal styling as a framing device for the agent
 
-### Step 2: Customize the Template
+The visual noise is intentional and part of the fiction.
 
-1. **Update `styles.css`**:
-   - Add YOUR font imports (remove placeholder comments)
-   - Set YOUR color scheme variables
-   - Define YOUR UI component styles
+## Hosting Model
 
-2. **Update `css/utilities.css`**:
-   - Add YOUR brand font classes
-   - Add YOUR gradient definitions
+This project is static and GitHub Pages compatible.
 
-3. **Create `index.html`**:
-   - Build with YOUR aesthetic
-   - Include YOUR animated signature element
-   - Use YOUR noise layer
-   - Reference YOUR characters
+- No backend runtime required
+- No server-side rendering
+- No API key dependency for core interaction
 
-4. **Review `js/` modules**:
-   - Update `config.js` with YOUR settings
-   - Modify animations to match YOUR aesthetic
-   - Adapt error messages to YOUR voice
+Everything runs in-browser via HTML, CSS, and JavaScript.
 
-### Step 3: Build Content
+## Local Preview
 
-Create pages in a new `pages/` directory:
-- about.html
-- origin.html
-- team.html (YOUR characters)
-- hate.html (YOUR enemies)
-- products.html (YOUR tools/projects)
-- roadmap.html
-- etc.
+Open index.html directly, or serve the directory with any static file server.
 
-### Step 4: Add Assets
-
-Create your own assets in `assets/` directory:
-- Logo/mascot images
-- Animated background element (canvas/GIF/CSS)
-- Favicon
-- Social sharing images
-
-## 📋 Pre-Launch Checklist
-
-Before going live, verify:
-
-- [ ] No fire GIFs anywhere
-- [ ] No Win95 silver/gray (#C0C0C0) as primary color
-- [ ] No Pokemon yellow+blue logo style
-- [ ] No Chinese characters in content
-- [ ] No "FUCK KOLS" or crypto-specific references
-- [ ] Different character names than Pingle/Gerald/Pisstina
-- [ ] Different origin story than hackathon
-- [ ] Your own animated signature element
-- [ ] Your own UI framework style
-- [ ] Your own noise layer
-
-**THE TEST:** Would someone familiar with Pissmissle immediately say "this copied Pissmissle"? If yes, you're too close.
-
-## 🛠 Technical Stack
-
-- **Frontend**: Vanilla HTML/CSS/JavaScript (no frameworks)
-- **Fonts**: Google Fonts (choose YOUR brands)
-- **Deployment**: Vercel (configured)
-- **Security**: CSP headers, XSS prevention
-- **Accessibility**: WCAG guidelines followed
-
-## 📚 Additional Resources
-
-- Read all guides in `creation/` folder thoroughly
-- Reference Pissmissle only for principles, not specifics
-- Test on multiple browsers and devices
-- Use browser dev tools to debug
-
-## 🚀 Deployment
+Example (Python):
 
 ```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
+python -m http.server 8080
 ```
 
-Or push to GitHub and connect to Vercel Dashboard.
+Then visit http://localhost:8080.
 
-## ⚖️ License
+## Project Intent
 
-Create your own license. This template's structure is provided as-is for Slop Grok project. The original Pissmissle project has its own licensing.
+Slop Grok is an art-satire project about internet decay, content automation, and synthetic excess.
+It is built to feel alive, unstable, and a little cursed.
 
-## 🎨 Remember
-
-**Learn the PRINCIPLES. Find YOUR EXECUTION.**
-
-Same chaotic energy. Different aesthetic. Make it yours.
-
----
-
-**Slop Grok TEMPLATE - START HERE, GO WILD** ⚠️ (╯°□°）╯ ┻━┻
+If you are looking for quality content, this is the wrong repository.
+That is the point.
 
